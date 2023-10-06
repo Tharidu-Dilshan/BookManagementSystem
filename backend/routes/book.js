@@ -8,7 +8,7 @@ router.route("/add").post((req, res) => {
     bookName,
     authorName,
     ISBN,
-    description
+    description,
   });
 
   newBook
