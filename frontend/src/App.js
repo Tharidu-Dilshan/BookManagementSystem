@@ -45,6 +45,7 @@ const BookForm = ({ newBook }) => {
         <input
           type="text"
           placeholder="Description"
+         
           value={description}
           onChange={(e) => setDescription(e.target.value)}
         />
