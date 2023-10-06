@@ -5,6 +5,8 @@ body {
   margin: 0;
   opacity: 100%;
   padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Container styles */
@@ -22,6 +24,7 @@ body {
   width: 80%;
   margin-left: 10%;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #book td, #book th {
@@ -51,7 +54,8 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 4px;
-  margin-left: 30%;
+  text-align: center;
+  background-color: crimson;
 }
 
 button.primary {

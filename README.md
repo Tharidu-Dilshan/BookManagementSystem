@@ -37,6 +37,8 @@ Follow these steps to run the application locally:
    ```bash
    git clone https://github.com/Tharidu-Dilshan/BookManagementSystem.git
    cd BookManagementSystem
+
 2. **Run Code:**  
   Use npm run dev  for Backend and 
   Use npm start for Frontend
+
