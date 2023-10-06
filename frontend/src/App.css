@@ -1,0 +1,112 @@
+/* Reset and base styles */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-image: url('https://th-thumbnailer.cdn-si-edu.com/Z1IdB5_H4P7jnQ6G4ex9lEeoLuU=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/c2/19/c219ea2f-a154-46c0-93c0-dbb05d2cd6d9/8314929977_4d7e817d68_h.jpg');
+  margin: 0;
+  opacity: 100%;
+  padding: 0;
+}
+
+/* Container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Table styles */
+#book {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+#book td, #book th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#book tr {
+  background-color: #f2f2f2;
+}
+
+#book tr:hover {
+  background-color: #ddd;
+}
+
+#book th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Button styles */
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin-left: 30%;
+}
+
+button.primary {
+  background-color: #3498db;
+  color: white;
+}
+
+button.primary:hover {
+  background-color: #2980b9;
+}
+
+/* Button container styles */
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Form styles */
+.book-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.book-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.book-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0%;
+}
+
+.book-form button:hover {
+  background-color: #2980b9;
+}
+
+h1{
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+}
